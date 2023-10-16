@@ -1,0 +1,70 @@
+.main{
+  
+  width: 100%;
+  padding: 10px;
+  padding-top:4rem;
+  background: #6cee98;
+  background-image: url('./Img/Log.jpg');
+  background-size: cover;
+  font-family: fantasy;
+  
+}
+
+.tit{
+  text-align: center;
+  font-family: Courier;
+  font-size: 22px;
+  color:#fff;
+}
+
+.tit-l{
+    text-align: center;
+  font-family: Monospace;
+  font-size: 26px;
+}
+
+#rec{
+  color: #6c8fee;
+}
+
+.fl-ex{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top:10px;
+  
+}
+
+.flex-item{
+  padding: 10px;
+  font-size: 20px;
+  font-family: fantasy;
+  border:2px solid black;
+}
+.flex-item:hover{
+  background: #6a84cb;
+  color: #fff;
+}
+
+.grid-port{
+  width: 100%;
+  margin-top:20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  
+  gap: 30px;
+  grid-column-gap: 20px;
+}
+
+.port-item{
+  height: 600px;
+  overflow: hidden;
+  
+  background-image: url('./Img/loading-gif.gif');
+  background-size: cover;
+  
+}
+
+.port-img{
+  width: 100%;
+}
