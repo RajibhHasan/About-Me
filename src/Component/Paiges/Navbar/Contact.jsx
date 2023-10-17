@@ -5,6 +5,11 @@ import Costome from "./Costome";
 import { v4 as uuidv4 } from "uuid";
 
 const Contact = () => {
+  
+  
+
+ 
+
   const [storeData, setStoreData] = useState({
     name: "",
     email: "",
@@ -61,8 +66,10 @@ const Contact = () => {
 
   const SubmitData = (e) => {
     e.preventDefault();
+    
+    
     setStoreData((old) => {
-      return { ...old, id: uuidv4() };
+      return { ...old, id:uuidv4() }
     });
     FetchHooks(url, "POST", storeData);
     setLogic(true);
